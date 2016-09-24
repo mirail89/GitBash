@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+
 using System.Threading.Tasks;
 
 namespace Number0to9text
@@ -10,7 +9,7 @@ namespace Number0to9text
     {
         static void Main(string[] args)
         {
-            var num = int.Parse(Console.ReadLine());
+            var num = 1789;
             if (num == 0)
                 Console.WriteLine("null");
             else if (num == 1)
