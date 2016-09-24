@@ -20,17 +20,7 @@ namespace Number0to9text
                 Console.WriteLine("three");
             else if (num == 4)
                 Console.WriteLine("four");
-            else if (num == 5)
-                Console.WriteLine("five");
-            else if (num == 6)
-                Console.WriteLine("six");
-            else if (num == 7)
-                Console.WriteLine("seven");
-            else if (num == 8)
-                Console.WriteLine("eight");
-            else if (num == 9)
-                Console.WriteLine("nine");
-            else
+
                 Console.WriteLine("number too big");
         }
     }
