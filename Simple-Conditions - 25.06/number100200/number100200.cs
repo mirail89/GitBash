@@ -10,7 +10,7 @@ namespace number100200
     {
         static void Main(string[] args)
         {
-            var number = int.Parse(Console.ReadLine());
+            
             if (number > 200)
                 Console.WriteLine("Greater than 200");
             else if (number >= 100)
